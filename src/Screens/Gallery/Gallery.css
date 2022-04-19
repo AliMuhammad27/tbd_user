@@ -1,0 +1,333 @@
+.MuiPaper-root {
+  box-shadow: none !important;
+}
+.MuiButtonBase-root.Mui-selected {
+  background-color: #f5722b !important;
+  color: #fff !important;
+  border-radius: 25px !important;
+  box-shadow: 0 0 5px #f5722b !important;
+}
+.MuiButtonBase-root,
+.MuiButtonBase-root.Mui-selected {
+  padding: 12px 30px !important;
+  font-size: 14px !important;
+  transition: 0.5s !important;
+  -webkit-transition: 0.3s !important;
+  -moz-transition: 0.3s !important;
+  -o-transition: 0.3s !important;
+  font-weight: 700;
+}
+.MuiButtonBase-root {
+  color: #f5722b !important;
+  border-radius: 25px !important;
+  border: 2px solid #f5722b !important;
+}
+.right-btn-tab {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  margin-left: -20px !important;
+}
+.left-btn-tab {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.MuiTabs-indicator {
+  display: none;
+}
+* {
+  outline: none !important;
+}
+/*! CSS Used from: Embedded */
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+/*! CSS Used from: Embedded */
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+/*! CSS Used from: Embedded */
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+/*! CSS Used from: Embedded */
+.MuiAppBar-root {
+  width: 100%;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.MuiAppBar-positionStatic {
+  position: static;
+}
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #3f51b5;
+}
+/*! CSS Used from: Embedded */
+.jss2 {
+  width: 100%;
+  bottom: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.jss4 {
+  background-color: #f50057;
+}
+/*! CSS Used from: Embedded */
+.MuiTabs-root {
+  display: flex;
+  overflow: hidden;
+  min-height: 48px;
+  -webkit-overflow-scrolling: touch;
+}
+.MuiTabs-flexContainer {
+  display: flex;
+}
+.MuiTabs-centered {
+  justify-content: center;
+}
+.MuiTabs-scroller {
+  flex: 1 1 auto;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+}
+.MuiTabs-fixed {
+  width: 100%;
+  overflow-x: hidden;
+}
+/*! CSS Used from: Embedded */
+.MuiTab-root {
+  padding: 6px 12px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.875rem;
+  max-width: 264px;
+  min-width: 72px;
+  box-sizing: border-box;
+  min-height: 48px;
+  text-align: center;
+  flex-shrink: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: normal;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+@media (min-width: 600px) {
+  .MuiTab-root {
+    min-width: 160px;
+  }
+}
+.MuiTab-textColorInherit {
+  color: inherit;
+  opacity: 0.7;
+}
+.MuiTab-textColorInherit.Mui-selected {
+  opacity: 1;
+}
+.MuiTab-wrapper {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-image {
+  margin-bottom: 20px;
+}
+.content-image img {
+  cursor: pointer;
+}
+.content-image .col-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  width: 100%;
+  text-transform: uppercase;
+  line-height: 4rem;
+  margin: 20px 0;
+}
+@media (max-width: 768px) {
+  .content-image .col-text h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+.content-image .col-text-broken,
+.content-image .col-image-broken {
+  margin: 30px 0;
+}
+.content-image .col-image img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+.content-image .col-image-small {
+  margin: 30px 0;
+}
+.content-image .col-image-small img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+.content-image .col-image-large {
+  margin: 30px 0;
+}
+.content-image .col-image-large img {
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
+}
+.content-image .col-image-half {
+  margin: 30px 0;
+}
+.content-image .col-image-half img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+.content-image .col-image-with-link {
+  margin-bottom: 20px;
+}
+.content-image .col-image-with-link a {
+  display: block;
+}
+.instructions {
+  padding: 30px 0;
+  margin-bottom: 30px;
+  background-color: #eaedef;
+  color: white;
+}
+.instructions .instruction {
+  padding-left: 15px;
+}
+@media (max-width: 768px) {
+  .instructions .instruction {
+    margin-bottom: 30px;
+  }
+}
+.instructions .instruction input {
+  width: auto;
+  margin: 10px 0;
+  border: 2px solid var(--lighterGunmetal);
+  padding: 5px;
+}
+.instructions .instruction a {
+  color: var(--gunmetal);
+  margin: 15px 0;
+  font-weight: bold;
+  display: block;
+  text-decoration: underline;
+  text-transform: uppercase;
+  will-change: color;
+  transition: 0.3s ease;
+}
+.instructions .instruction a:hover {
+  color: var(--lighterGunmetal);
+}
+.instructions .code {
+  padding: 15px;
+}
+#container-with-slick .slick-prev:before,
+#container-with-slick .slick-next:before {
+  color: var(--gunmetal);
+}
+.SRLCustomCaption .myCustomCaptionOne,
+.SRLCustomCaption .myCustomCaptionTwo {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SRLCustomCaption .myCustomCaptionOne span,
+.SRLCustomCaption .myCustomCaptionTwo span {
+  color: #33673b;
+  font-weight: 700;
+  font-size: 30px;
+}
+.SRLCustomCaption .myCustomButton {
+  padding: 10px 20px;
+  background-color: #33673b;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  transition: 0.3s ease;
+  will-change: transform, background-color;
+}
+.SRLCustomCaption .myCustomButton:hover {
+  text-decoration: none;
+  background-color: #224527;
+  transform: scale(1.1);
+}
+
+.content-image img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.css-qnrrsi {
+  z-index: 9999999999 !important;
+}
+
+.video-outer {
+  width: 324px;
+  height: 231px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-inner {
+  position: relative;
+  left: 0;
+  top: 0;
+  opacity: 1;
+}
