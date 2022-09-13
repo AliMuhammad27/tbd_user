@@ -33,8 +33,10 @@ function SectionFive(props) {
                   daata-aoos="fade-up"
                   daata-aoos-duration={800}
                 >
-                  Shop Our Collection
+                  Shop By Category
                 </h1>
+                <p style={{ textAlign: "center", fontSize: 20, color: "white" }}>We strive to provide our consumers with genuine, high-quality products.</p>
+                <h2 style={{ color: "orange", textAlign: "center" }}>Shop Now!</h2>
               </div>
             </div>
             <div className="row">

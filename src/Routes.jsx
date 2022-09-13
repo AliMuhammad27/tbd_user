@@ -29,6 +29,8 @@ import Profile from "./Screens/Profile/Profile";
 import Register from "./Screens/Register/Register";
 import Store from "./Screens/Store/Store";
 import Wishlist from "./Screens/Wishlist/Wishlist";
+import FAQ from "./Screens/Faq/FAQ";
+import Blog from "./Screens/Blog/Blog";
 
 // COMPONENTS
 
@@ -138,6 +140,10 @@ function Routes({ history, location }) {
           exact
           render={(props) => <Gallery {...props} />}
         />
+
+        <Route path="/faqs" exact render={(props) => <FAQ {...props} />} />
+        <Route path="/blogs" exact render={(props) => <Blog {...props} />} />
+
         <Route
           path="/content/:id"
           exact

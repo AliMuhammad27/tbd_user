@@ -41,8 +41,7 @@ function SectionSix(props) {
                   daata-aoos="fade-up"
                   daata-aoos-duration={1000}
                 >
-                  We support small producers by selling handcrafted, sustainable
-                  products.
+                  We celebrate individuality and diversity and have everything for everyone.
                 </p>
               </div>
             </div>

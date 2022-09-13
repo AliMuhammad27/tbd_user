@@ -179,6 +179,26 @@ function Header({ history, location }) {
                       Gallery
                     </Link>
                   </li>
+
+                  <li
+                    className="nav-item"
+                    daata-aoos="fade-down"
+                    daata-aoos-duration={700}
+                  >
+                    <Link className="nav-link" to="/blogs">
+                      Blogs
+                    </Link>
+                  </li>
+
+                  <li
+                    className="nav-item"
+                    daata-aoos="fade-down"
+                    daata-aoos-duration={700}
+                  >
+                    <Link className="nav-link" to="/faqs">
+                      FAQs
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </nav>

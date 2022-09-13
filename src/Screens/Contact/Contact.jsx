@@ -132,6 +132,40 @@ export default function Contact() {
                 </form>
               </div>
             </div>
+            <div
+              className="container-fluid"
+              style={{ paddingLeft: "210px", marginTop: "50px" }}
+            >
+              <h1 style={{ color: "black" }}>Our Newsletter</h1>
+              <p style={{ fontSize: 20 }}>
+                Sign-up for free to receive the latest news, promotional deals,
+                and discounts directly into your inbox.
+              </p>
+            </div>
+
+            <div
+              className="container-fluid"
+              style={{ paddingLeft: "210px", marginTop: "50px" }}
+            >
+              <h1 style={{ color: "black" }}>Saint Shop </h1>
+              <p style={{ fontSize: 20 }}>
+                Saint Shop is a dedicated e-commerce store that provides the
+                most innovative and quality products at the lowest prices,
+                delivered straight to your door.
+              </p>
+            </div>
+
+            <div
+              className="container-fluid"
+              style={{ paddingLeft: "210px", marginTop: "50px" }}
+            >
+              <h1 style={{ color: "black" }}>Contact Us</h1>
+              <p style={{ fontSize: 20 }}>
+                Contact us via email or phone if you have any concerns or
+                queries regarding our products or services. Our Customer Support
+                is active 24/7 to help resolve your issues promptly.
+              </p>
+            </div>
           </div>
         </div>
       </section>

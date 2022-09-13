@@ -863,6 +863,20 @@ i.cart-orange-cstm2 {
     border-radius: 15px;
     overflow: hidden;
 }
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+font {
+  font-size: 15px;
+  color: #0b105e;
+}
+
+section11{
+  text-align: center
+}
+
 
 thead.thead-orange {
     background: #F5722B;
@@ -1402,7 +1416,7 @@ li.page-item .page-link{
 
 
 .product-thumbs .nav-item .nav-link img{
-  border-radius: 15px;
+  border-radius: 16px;
   overflow: hidden;
 }
 

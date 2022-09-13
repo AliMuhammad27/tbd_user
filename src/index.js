@@ -15,7 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <RecoilRoot>
       <QueryClientProvider client={queryClient}>
-        <Router basename="/tbd/user">
+        <Router basename="/user">
           <App />
         </Router>
       </QueryClientProvider>

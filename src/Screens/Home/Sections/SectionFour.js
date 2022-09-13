@@ -28,18 +28,14 @@ function SectionFour() {
                   daata-aoos-duration={800}
                   style={{ marginBottom: 20 }}
                 >
-                  We aspire to a more thoughtful way of life. Inspired by a time
-                  when mass production <br />
-                  and indiscriminate consumerism were unknown, our aim is to
-                  stock a range of enduring <br /> everyday items that are not
-                  mass produced.
+                  Your desired items are made with 100% natural and high-quality materials, easy on the pocket, and quickly delivered. We make your shopping experience worthwhile.
                 </p>
                 <Link
                   className="btn-orange mt-20 text-left"
                   daata-aoos="zoom-in"
                   to="/about"
                 >
-                  FIND OUT MORE
+                  Shop Now!
                 </Link>
               </div>
               <div

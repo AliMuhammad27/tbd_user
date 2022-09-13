@@ -42,8 +42,15 @@ function SectionEight(props) {
                   daata-aoos="fade-up"
                   daata-aoos-duration={800}
                 >
-                  We support small producers by selling handcrafted, sustainable
-                  products.
+                  We take pride in selling handcrafted and sustainable products at affordable rates.
+                </p>
+                <p
+                  className="ff-thunder fc-orange"
+                  daata-aoos="fade-up"
+                  daata-aoos-duration={800}
+                  style={{ fontSize: "24px" }}
+                >
+                  Get Your Hands on Your Favorite Item Now!
                 </p>
               </div>
             </div>
@@ -91,6 +98,7 @@ function SectionEight(props) {
           </div>
         </div>
       </div>
+
     </section>
   );
 }

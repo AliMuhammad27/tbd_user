@@ -9,12 +9,13 @@ import Section7 from "./Sections/SectionSeven";
 import Section8 from "./Sections/SectionEight";
 import Section9 from "./Sections/SectionNine";
 import Section10 from "./Sections/SectionTen";
+import Section11 from "./Sections/SectionEleven";
 
 export default function Home() {
   return (
     <>
       <Section1 />
-      <Section2 />
+      {/* <Section2 /> */}
       <Section3 />
       <Section4 />
       <Section5 />
@@ -23,6 +24,7 @@ export default function Home() {
       <Section8 />
       <Section9 />
       <Section10 />
+      <Section11 />
     </>
   );
 }

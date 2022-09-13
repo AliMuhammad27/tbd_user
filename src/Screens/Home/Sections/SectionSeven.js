@@ -47,17 +47,9 @@ function SectionSeven() {
                     </div>
                     <div className="content">
                       <p className="p-lg mb-0 text-uppercase fc-white">
-                        Stark Areyab
+                        Agatha
                       </p>
-                      <p className="fc-white">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged.
-                      </p>
+                      <p style={{ textAlign: "center", fontSize: 20, color: "white" }}>"Thanks to saint shop, I bought home accessories at wholesale rates for my living room, and, trust me, I saved a lot."  <strong>– Agatha</strong></p>
                     </div>
                   </div>
 
@@ -71,17 +63,9 @@ function SectionSeven() {
                     </div>
                     <div className="content">
                       <p className="p-lg mb-0 text-uppercase fc-white">
-                        STARK WILLIAM
+                        Myra
                       </p>
-                      <p className="fc-white">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged.
-                      </p>
+                      <p style={{ textAlign: "center", fontSize: 20, color: "white" }}>"My friend recommended me, saint shop. I read about their products and realized that they have accessories at affordable rates. They make shopping easy and stress-free!"  <strong>– Myra</strong></p>
                     </div>
                   </div>
 
@@ -95,17 +79,9 @@ function SectionSeven() {
                     </div>
                     <div className="content">
                       <p className="p-lg mb-0 text-uppercase fc-white">
-                        Stark AREYAB
+                        Alfred
                       </p>
-                      <p className="fc-white">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged.
-                      </p>
+                      <p style={{ textAlign: "center", fontSize: 20, color: "white" }}>"I'm a small business owner. I also research the market to purchase items for my shop in bulks. With the help of saint shop, I can now purchase my desired items in bulk at a wholesale rate without going out of my door. Thank you!"  <strong>– Lauren</strong></p>
                     </div>
                   </div>
                 </Slider>

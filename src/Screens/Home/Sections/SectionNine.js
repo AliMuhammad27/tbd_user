@@ -22,6 +22,7 @@ function SectionNine(props) {
                 >
                   BLOG
                 </h1>
+                <p style={{ textAlign: "center", fontSize: 20, color: "white" }}>Want inspo and tips? Stay tuned for the best guides related to e-commerce.</p>
               </div>
               {contents?.map((el) => (
                 <div className="col-lg-4 col-sm-12 col-xs-12 mt-30">
@@ -67,9 +68,17 @@ function SectionNine(props) {
             </div>
           </div>
         </div>
+        {/* <div>
+          <div className="container-fluid">
+            <h2 style={{ textAlign: "center", color: "black" }}>Blogs</h2>
+            <p style={{ textAlign: "center", fontSize: 20 }}>Want inspo and tips? Stay tuned for the best guides related to e-commerce.</p>
+          </div>
+        </div> */}
       </div>
     </section>
   );
 }
 
 export default SectionNine;
+
+

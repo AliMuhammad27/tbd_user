@@ -18,17 +18,14 @@ function SectionThree() {
                   Welcome to the new lifestyle
                 </h1>
                 <p className="mt-20 fc-gray mb-20" daata-aoos="fade-up">
-                  We aspire to a more thoughtful way of life. Inspired by a time
-                  when mass production and indiscriminate consumerism were
-                  unknown, our aim is to stock a range of enduring everyday
-                  items that are not mass produced.
+                  Browse our popular product category and find everything you need with a few clicks. Your favorite and most wanted products will be delivered to your doorstep.
                 </p>
                 <Link
                   className="btn-orange mt-20 text-left"
                   daata-aoos="zoom-in"
                   to="/about"
                 >
-                  FIND OUT MORE
+                  Get the Best Shopping Experience Now!
                 </Link>
               </div>
             </div>

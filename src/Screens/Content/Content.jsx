@@ -55,7 +55,32 @@ export default function Content({ location }) {
       <section className="p-55-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">{ReactHtmlParser(content?.text)}</div>
+            <div
+              className="container-fluid"
+              style={{ paddingRight: "250px", marginTop: "50px" }}
+            >
+              <h1 style={{ color: "black" }}>About Us</h1>
+              <p style={{ fontSize: 20 }}>
+                Saint Shop is an online retail store offering a wide range of
+                trendy outfits, fashion accessories, beauty products, consumer
+                electronics, and the latest fitness tools and accessories
+                collection. With passion, dedication, and honesty driving our
+                desire to provide our customers with an exceptional shopping
+                experience, we have managed to win the trust of our expanding
+                customer base. Here, we courage every individual to sell their
+                products on our platform! We have all you need, from the latest
+                gadgets and fitness tools to fashion, home improvement,
+                outdoors, and lifestyle products. We offer top-notch products at
+                affordable prices and ensure quick delivery, 100% satisfaction,
+                secure payment gateways, and a streamlined checkout process for
+                our valued clients. Moreover, we offer a worldwide accessible
+                shipping facility to ensure timely shipment. It's time to have
+                an online shopping experience like never before.{" "}
+              </p>
+              <h2 style={{ color: "blue" }}>
+                Get the Best Shopping Experience NOW!
+              </h2>
+            </div>
           </div>
         </div>
       </section>

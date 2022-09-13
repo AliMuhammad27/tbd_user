@@ -40,7 +40,7 @@ export default class SlickGoTo extends React.Component {
                     }}
                     className="ff-thunder fc-white"
                   >
-                    We Are Authentic
+                    Think Beyond Imagination
                   </h2>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default class SlickGoTo extends React.Component {
                       color: "#2e2e54",
                     }}
                   >
-                    We Are Authentic
+                    One-Stop-Shop for All Your Needs
                   </h2>
                   <h2
                     style={{
@@ -68,7 +68,7 @@ export default class SlickGoTo extends React.Component {
                     }}
                     className="ff-thunder fc-white"
                   >
-                    We Are Sustainable
+                    The Best Ecommerce Store for Your Daily Needs
                   </h2>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export default class SlickGoTo extends React.Component {
                       color: "#2e2e54",
                     }}
                   >
-                    We Are Authentic
+                    Premium Quality Products at Affordable Prices
                   </h2>
                   <h2
                     style={{
@@ -96,7 +96,7 @@ export default class SlickGoTo extends React.Component {
                     }}
                     className="ff-thunder fc-white"
                   >
-                    We Are Sustainable
+                    24/7 Support & 100% Customer Satisfaction
                   </h2>
                   <h2
                     style={{
@@ -104,13 +104,13 @@ export default class SlickGoTo extends React.Component {
                     }}
                     className="ff-thunder fc-white"
                   >
-                    We Are Olden Times
+                    Let us Take Your Shopping Experience to the Next Level
                   </h2>
                 </div>
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div
                 className="main-text"
@@ -129,8 +129,8 @@ export default class SlickGoTo extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row">
+          </div> */}
+          {/* <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div
                 className="main-text"
@@ -157,8 +157,8 @@ export default class SlickGoTo extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row">
+          </div> */}
+          {/* <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12">
               <div
                 className="main-text"
@@ -193,7 +193,7 @@ export default class SlickGoTo extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
     );
